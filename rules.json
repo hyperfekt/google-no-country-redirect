@@ -1,6 +1,6 @@
 {
     "createdBy": "Redirector v3.1.1",
-    "createdAt": "2018-03-20T16:19:48.050Z",
+    "createdAt": "2018-03-28T06:04:01.240Z",
     "redirects": [
         {
             "description": "Google in English",
@@ -52,7 +52,7 @@
             "exampleUrl": "www.google.com/fdf",
             "exampleResult": "www.google.com/fdf?gws_rd=cr&hl=en",
             "error": null,
-            "includePattern": "(.*)\\.(google|blogspot)\\.com/(?!.*(gws_rd=cr&hl=en|\\.))(.*)",
+            "includePattern": "(.*)\\.(google|blogspot)\\.com/(?!.*(gws_rd=cr&hl=en|\\.|gmail))(.*)",
             "excludePattern": "",
             "redirectUrl": "$1.$2.com/$4?gws_rd=cr&hl=en",
             "patternType": "R",
